@@ -1,0 +1,13 @@
+dict_ = dict()
+
+s = input()
+
+for char in s:
+
+    if char not in dict_:
+
+        dict_[char] = 1
+    else:
+        dict_[char]+=1
+
+print(dict_)

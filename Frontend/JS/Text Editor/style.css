@@ -1,0 +1,43 @@
+#para {
+    font-family:monospace ;
+    font-size: larger;
+    color: chocolate;
+    font-size: 20px;
+}
+
+.box{
+    width: 50vw;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    
+
+}
+
+.wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap : 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 50px;
+    background-color: crimson;
+    color: white;
+}
+
+input{
+    height: 50px;
+    padding: 10px;
+    background-color: beige;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+}

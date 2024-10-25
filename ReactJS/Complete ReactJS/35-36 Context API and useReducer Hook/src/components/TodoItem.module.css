@@ -1,0 +1,15 @@
+div{
+  align-items: center;
+  /* height: 5vw;
+  width: 15vw; */
+  font-size: x-large;
+  font-weight: 500;
+} 
+
+button{
+  float: left;
+}
+.MdOutlineDeleteOutline {
+  font-size: x-large;
+  
+}

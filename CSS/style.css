@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#box{
+    display: flex;
+    align-items: start;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(52, 4, 4);
+}
+
+#box2{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(37, 18, 106);
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 168, 24);
+}
+

@@ -1,0 +1,21 @@
+.box {
+    height: 50vh;
+    width: 30vw;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 25%;
+    background-color: rgb(29, 47, 63);
+    color: white;
+}

@@ -1,0 +1,15 @@
+input{
+    /* height: 5vw;
+    width: 15vw; */
+    font-size: large;
+    font-weight: 700;
+} 
+
+.btn-primary:hover{
+    background-color: rgb(11, 11, 130);
+    font-size: x-large;
+  }
+
+.IoMdAddCircleOutline{
+    font-size: x-large;
+}

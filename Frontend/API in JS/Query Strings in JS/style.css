@@ -1,0 +1,15 @@
+* {
+  margin: 50px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+  color: brown;
+  font-size: large;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+

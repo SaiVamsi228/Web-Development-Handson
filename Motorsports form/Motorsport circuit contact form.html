@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriftFury | Contact Forms</title>
+    <link rel="stylesheet" href="Mot_spo_style.css">
+</head>
+<body>
+    <form action="">
+    <div class="container">
+        <br>
+        <br>
+
+        <h1 class="main_heading">DriftFury Challenge Contact Form</h1>
+        
+        <br>
+        <p>required fields are marked with asterisk(*)</p>
+        <p>
+            Name:* <br>
+            <select name="title" id="title" required> 
+                <option value="Title">Title</option>
+                <option value="girl">Miss</option>
+                <option value="woman_unmar">Ms</option>
+                <option value="woman_mar">Mrs</option>
+                <option value="man_or_boy">Mr</option>
+            </select>
+
+            <input type="text" placeholder="First">
+            <input type="text" placeholder="Last">
+        </p>
+
+        <p>
+            Email address:* <br>
+            <input type="email" required>
+        </p>
+
+        <p>
+            Phone number:* <br>
+            <input type="number" placeholder="### #### ###" required>
+        </p>
+
+        <p>
+            What are you interested in:* <br>
+            <select name="interest" id="interest" required>
+                <option value="select" style="text-align: center;"> ---------------Please select--------------- </option>
+                <option value="corp_driv_exp"> Corporate Driving Exprience</option>
+                <option value="mot_cir_hir"> Motor Circuit Hire</option>
+                <option value="track_days"> Track Days </option>
+                <option value="test_days">Test Days</option>
+                <option value="spin_and_slide">Spin and Slide</option>
+                <option value="yng_driv_exp">Young Driver Experience</option>
+            </select>
+        </p>
+
+        <p>
+            Do you have a preference for the date of your experience?* <br>
+            <input type="date" required>
+        </p>
+
+        <p>
+            Approximately how many guests would be attending?* <br>
+            <input type="number" value="### ### ####" required>
+        </p>
+
+        <p>
+            Message:* <br>
+            <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
+        </p>
+
+        <p>
+            Verification* <br>
+            <br>
+            <input type="checkbox" required> I am not a Robot
+        </p>
+
+        <p class="button">
+            <input type="submit" value="Let's Drive..." class="drive"required>
+            <input type="submit" value="Let's Drift..." class="drift" required>
+        </p>
+
+
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>

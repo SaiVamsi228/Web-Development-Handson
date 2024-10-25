@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex flex-col items-center justify-center">
+    <div
+      id="time-container"
+      class="text-center p-10 bg-white rounded-lg shadow-lg"
+    >
+      <h1 class="text-2xl font-bold text-gray-800 font-sans">Current Time</h1>
+      <p id="time" class="text-5xl font-semibold text-blue-500 mt-5"></p>
+    </div>
+    <br />
+    <br />
+
+    <div
+      class="countdown-timer flex flex-col gap-y-10 rounded-lg shadow-lg font-sans p-10"
+    >
+      <h1 class="cdt">Countdown Timer</h1>
+      <div class="timer-details">
+        <input type="number" placeholder="HH" class="hr" />
+        <input type="number" placeholder="MM" class="min" />
+        <input type="number" placeholder="SS" class="sec" />
+      </div>
+
+      <button class="start-button">Start Timer</button>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.myTime {
+  color: black;
+}
+
+.myButton {
+  color: white;
+  font-size: medium;
+  padding: 10px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+input {
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.start-button {
+  color: white;
+  font-size: medium;
+  padding: 10px;
+  background-color: green;
+  border: 1px solid green;
+}
+
+.cdt {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.countdown-timer,.timer-details, .time-container {
+  min-width: 300px;
+}

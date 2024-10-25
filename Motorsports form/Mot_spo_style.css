@@ -1,0 +1,83 @@
+.container{
+    background-color: rgba(240, 241, 232, 0.75);
+    font-family: 'Franklin Gothic Medium', 'Amasis Pro Bold', Arial, sans-serif;
+    margin: 15px 30px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+body{
+    background-image: url("porsche-911-rsr-4k-racing-wallpaper-preview.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4px;
+    font-size: 17px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type= "number"],
+input[type="date"],
+select,
+textarea {
+    width : 25%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 11px;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+    margin: 5px;
+}
+
+.main_heading{
+    text-align: center;
+    text-decoration: wavy;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+
+
+
+}
+.button{
+    text-align: center;
+}
+
+.drive{
+    
+    text-decoration: line-through;
+    background-color: #faf1f1;
+}
+
+.drift:hover{
+    background-color: rgb(74, 56, 56);
+
+    color:white ;
+    background-size: cover;
+    font-weight: bold;
+    box-shadow: inset;
+}
+
+input[type="checkbox"]{
+    padding: 20px;
+}

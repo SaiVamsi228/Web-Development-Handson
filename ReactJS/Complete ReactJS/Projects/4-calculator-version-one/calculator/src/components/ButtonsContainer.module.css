@@ -1,0 +1,7 @@
+.buttonsContainer{
+    width: calc(100% - 80px);
+    margin: 40px;
+    display: block;
+}
+
+

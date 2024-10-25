@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai And Code | DOM</title>
+</head>
+<body style="background-color: black; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+        
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+
+        const listItem = document.createElement("li")
+        
+        
+        listItem.innerHTML = langName
+        listItem.style.backgroundColor = "white"
+        listItem.style.color = "black"
+        listItem.style.padding = "5px"
+
+        document.querySelector('.language').
+        appendChild(listItem)
+    }
+
+    addLanguage("SQL")
+
+    function addOptionalLanguage(langName) {
+
+        const listItm = document.createElement("li")
+        listItm.appendChild(document.createTextNode(langName))
+        document.querySelector(".language").appendChild(listItm)
+    }
+
+    addOptionalLanguage("python")
+
+    // Edit
+
+    secondLang = document.querySelector('li:nth-child(2)')
+    // secondLang.innerHTML = "Mojo" // Works but not efficient
+    const newli = document.createElement('li')
+    newli.textContent = "Mojo" // Can use createTextNode also
+
+    secondLang.replaceWith("Mojo")
+
+
+    // edit
+
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>TypeSccript</li>'
+
+    // remove
+
+    const lastLang = document.querySelector("li: last-child")
+    lastLang.remove()
+
+    
+</script>
+</html>

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: yellow;
+  font-size: larger;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+button{
+    margin-top: 30px;
+    font-size: larger;
+    background-color: blue;
+}
+
+
+.main{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: yellow;
+    width: 50%      ;
+    min-height: 100%;
+}
+
+.myImg{
+    height: 100px;
+    width: auto;
+}
+
+p{
+  text-align: center;
+}

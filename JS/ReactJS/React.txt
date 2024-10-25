@@ -1,0 +1,14 @@
+ReactJs
+
+Adv JS topics for React -
+
+1. ES5 vs ES6 ✅
+2. Array, Objects, Functions ✅
+3. Arrow functions/ Normal Functions ✅
+4. Array Methods (map,filter,reduce,find, findIndex) ✅
+5. Destructuring ✅
+6. rest Spread ✅
+7. try catch ✅
+8. async await ✅
+9. promises ✅
+
