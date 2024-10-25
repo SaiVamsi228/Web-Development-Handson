@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #9b2c2c;
+  color: #333;
+  padding: 20px;
+}
+
+nav{
+  padding: 0;
+  width: 75%;
+  border-bottom: 1px solid #fffff0;
+  margin: 20px;
+}
+
+nav h1{
+  margin: 0;
+  font-size: 40px;
+  color: #fffff0;
+  font-family: "Crimson Text", serif;
+}
+
+.post-container,
+#btn a {
+  width:70%;
+  background-color: #fffff0;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  color: #2d3436;
+}
+
+.post-container h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+.post-container p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.post-container:hover {
+  box-shadow: 0 6px 12px rgba(255, 253, 253, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn:hover a {
+  box-shadow: 0 6px 12px rgba(255, 253, 253, 0.5);
+}
+
+#search-form {
+  width: 72%;
+  background-color: #fffff0;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+  font-weight: 500;
+  color: #2d3436;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #9b2c2c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7a2323;
+}
+
+.post-container form{
+  display: flex ;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+}
+
+#delete-btn {
+  float: right;
+  color: #2d3436;
+  background-color: transparent;
+}
+
+.Options a{
+  width: 50%;
+  /* background-color: red; */
+}
+
+.Options form{
+  /* background-color: blue; */
+  width: 50%;
+}
+
+.Options{
+  display: flex;
+  justify-content: space-between;
+}

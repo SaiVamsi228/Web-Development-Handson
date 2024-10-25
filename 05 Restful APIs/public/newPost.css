@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #9b2c2c; /* Cranberry for body background */
+  color: #333;
+  padding: 20px;
+}
+
+form {
+  background-color: #fffff0; /* Ivory background for the form */
+  border: 1px solid #eaeaea; /* Light gray border */
+  border-radius: 12px;
+  padding: 25px;
+  margin: 0 auto;
+  width: 50%; /* Make the form width a bit narrower for elegance */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for elegance */
+}
+
+legend {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333; /* Dark header text */
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #9b2c2c; /* Cranberry border on focus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow on focus */
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #9b2c2c; /* Cranberry for the button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #7a2222; /* Darker cranberry on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Richer shadow on hover */
+}
+
+textarea {
+  resize: none; /* Disable resize for a cleaner look */
+  height: 150px; /* Set a fixed height for the textarea */
+}

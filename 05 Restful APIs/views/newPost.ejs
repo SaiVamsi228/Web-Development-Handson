@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/newPost.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>New Post</title>
+  </head>
+  <body>
+    <form action="http://localhost:8080/posts" method="post">
+      <legend>New Post</legend>
+
+      <h2>Username</h2>
+      <input type="text" name="username" required />
+
+      <h2>Post</h2>
+      <textarea
+        name="post"
+        id="new-post"
+        placeholder="Quote ' It always seems impossible until it’s done.' "
+        required
+      ></textarea>
+
+      <button type="submit">Post</button>
+    </form>
+  </body>
+</html>
