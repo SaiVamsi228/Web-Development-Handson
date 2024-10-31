@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/displayUsers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
+      integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Users</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>User Information</h1>
+        <div class="container">
+            <form action="/newuser">
+                <button type="submit" class="add-user-button">Add New User</button>
+            </form>
+            <table>
+                <tr id="heading">
+                    <th>S.No</th>
+                    <th>UserID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Delete Record</th>
+                </tr>
+                <% let i = 1 %> <% for (let user of data) { %>
+                <tr>
+                    <td><%= i %></td>
+                    <td><%= user.userId %></td>
+                    <td>
+                        <div class="user-name">
+                            <%= user.username %>
+                            <form action="http://localhost:8080/edit/<%= user.userId %>/<%= user.username %>" method="post">
+                                <button type="submit" class="edit-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" >
+                                        <path d="M9.24264 18.9967H21V20.9967H3V16.754L12.8995 6.85453L17.1421 11.0972L9.24264 18.9967ZM14.3137 5.44032L16.435 3.319C16.8256 2.92848 17.4587 2.92848 17.8492 3.319L20.6777 6.14743C21.0682 6.53795 21.0682 7.17112 20.6777 7.56164L18.5563 9.68296L14.3137 5.44032Z"></path>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                    <td><%= user.email %></td>
+                    <td><%= user.password %></td>
+                    <td> <form action="/user/<%= user.userId%>" method = "post">
+                        <button type="submit" style="border: none; background-color: transparent;"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="delete-button"><path d="M4 8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8ZM6 10V20H18V10H6ZM9 12H11V18H9V12ZM13 12H15V18H13V12ZM7 5V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V5H22V7H2V5H7ZM9 4V5H15V4H9Z"></path></svg>
+                        </button>
+                    </form></td>
+                </tr>
+                <% i += 1 %> <% } %>
+            </table>
+        </div>
+    </div>
+    <script src="/displayUsers.js"></script>
+</body>
+</html>

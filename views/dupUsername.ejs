@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duplicate Username Found</title>
+    <link rel="stylesheet" href="/dupUsername.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Username already exists. Please use a different one.</h1>
+        <form action="http://localhost:8080/edit/<%= id %>/<%= username %>" method="post">
+            <button type="submit" class="try-again-button">Click Here to Try Again</button>
+        </form>
+        <div class="button-group">
+            <a href="http://localhost:8080/user" class="button-link">Click Here to Quit</a>
+        </div>
+    </div>
+</body>
+</html>

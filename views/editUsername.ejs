@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Username</title>
+    <link rel="stylesheet" href="/editUsername.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Change Username</h1>
+        <div class="container">
+            <h2>Current Username: <%= username %></h2>
+            <form action="/user/<%= id %>/<%= username %>?_method=PATCH" method="post">
+                <input type="text" name="newUsername" placeholder="Enter New Username" class="input-field" required>
+                <button type="submit" class="confirm-button">Confirm</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
