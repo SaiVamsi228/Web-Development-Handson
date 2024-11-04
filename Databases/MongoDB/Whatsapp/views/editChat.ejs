@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Chat</title>
+    <link rel="stylesheet" href="/editChat.css">
+</head>
+<body>
+    <div class="edit-container">
+        <h2>Edit Chat</h2>
+        <div class="chat-info">
+            <p><strong>From:</strong> <%= chat.from %></p>
+            <p><strong>To:</strong> <%= chat.to %></p>
+            <p class="original-message"><strong>Original Message:</strong> <%= chat.msg %></p>
+        </div>
+        <form action="http://localhost:8080/edit/<%= id %>?_method=PUT" method="post" class="edit-form">
+            <legend>Edit Message</legend>
+            <input type="text" name="newMsg" placeholder="Enter new message" required>
+            <button type="submit" class="confirm-btn">Confirm</button>
+        </form>
+    </div>
+</body>
+</html>

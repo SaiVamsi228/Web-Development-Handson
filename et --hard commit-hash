@@ -1,0 +1,73 @@
+[33mcommit 1d0cde6afa6716f0d38aa0cbbe4550c328fa1c05[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sai Vamsi Sirikonda <126693735+SaiVamsi228@users.noreply.github.com>
+Date:   Fri Nov 1 17:42:07 2024 +0530
+
+    Delete SQL handson.sql
+
+[33mcommit 3927c86d0039fd3355fb1afd5349f0d6652d629f[m
+Author: Sai Vamsi Sirikonda <126693735+SaiVamsi228@users.noreply.github.com>
+Date:   Fri Nov 1 17:41:55 2024 +0530
+
+    Delete Practice Qs 1.sql
+
+[33mcommit cbe6bf05ca666589c4eba9e4e2b8ba68f41a2180[m
+Author: Sai Vamsi Sirikonda <126693735+SaiVamsi228@users.noreply.github.com>
+Date:   Fri Nov 1 17:41:23 2024 +0530
+
+    Delete views directory
+
+[33mcommit 35161c7cba05bcee8acb7f7ca848d02cde91a2a9[m
+Author: Sai Vamsi Sirikonda <126693735+SaiVamsi228@users.noreply.github.com>
+Date:   Fri Nov 1 17:41:13 2024 +0530
+
+    Delete public directory
+
+[33mcommit 0453604236cca340e29989751669bb2bac84059b[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Fri Nov 1 17:40:28 2024 +0530
+
+    Added MongoDB and MySQL Directories
+
+[33mcommit 81461438762e4af4b969f53e1ae28d95a8efc822[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Fri Nov 1 17:38:12 2024 +0530
+
+    MySQL integration with Express Handson done
+
+[33mcommit a41b0c4b8652f9af535a6d7de49872b89ee9cee1[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Thu Oct 31 12:15:40 2024 +0530
+
+    MySQL integration with express handson done
+
+[33mcommit 9ce9a8cffba7c1d11605473b5e65c1208ba48ba5[m
+Author: Sai Vamsi Sirikonda <126693735+SaiVamsi228@users.noreply.github.com>
+Date:   Thu Oct 31 12:34:58 2024 +0530
+
+    Delete Databases directory
+    
+    Adding directory again
+
+[33mcommit e04ff1e25a4f5f3708935f441f64cc4b4871c099[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Thu Oct 31 12:21:57 2024 +0530
+
+    Add Databases directory
+
+[33mcommit 20d06b7dd701b4b0b4e803dbf240c1b86da5452f[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Fri Oct 25 16:29:04 2024 +0530
+
+    merged-folders
+
+[33mcommit 335b946cbc859360d66661100fa2105a66c7f887[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Fri Oct 25 16:23:30 2024 +0530
+
+    Updated Web Development Repo
+
+[33mcommit 713ee18475d44de902318d1f1ca8fff7dd8c8d62[m
+Author: Sai Vamsi <saivamsi2284sirikonda@gmail.com>
+Date:   Fri Oct 25 15:38:37 2024 +0530
+
+    Hands-on Restful API's using Express Done!

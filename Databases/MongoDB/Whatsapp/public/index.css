@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.new-chat-btn button {
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.new-chat-btn button:hover {
+    background-color: #1DB954;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.chat-bubble {
+    position: relative;
+    max-width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-family:cursive;
+    font-size: 20px; /* Increased font size */
+    color: #f1f1f1;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.from-me {
+    background-color: #25D366;
+    align-self: flex-end;
+    border-radius: 12px 12px 0 12px;
+    text-align: left;
+    color: #fff;
+}
+
+.from-them {
+    background-color: #555555;
+    align-self: flex-start;
+    border-radius: 12px 12px 12px 0;
+    color: #f1f1f1;
+}
+
+.chat-meta {
+    font-size: 14px; /* Increased font size */
+    color: #cccccc;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.chat-meta span {
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 16px; /* Increased font size */
+    margin: 8px 0;
+}
+
+.date {
+    font-size: 14px; /* Increased font size */
+    color: #b1b1b1;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.edit-form, .delete-form {
+    display: inline;
+}
+
+.edit-btn, .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.edit-icon  {
+    float: right;
+    width: 28px;
+    height: 28px;
+    fill: #25D366;
+    transition: fill 0.1s ease;
+}
+
+.edit-btn:hover .edit-icon, .delete-btn:hover, .delete-icon {
+    fill: #1DB954;
+    scale: 1.1;
+}
+
+.edit-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-icon{
+    float: right;
+    width: 28px;
+    height: 28px;
+    fill: #d33030;
+    transition: fill 0.1s ease;
+}
+
+.delete-form{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+} 
+.chat-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.chat-container {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #222;
+}
